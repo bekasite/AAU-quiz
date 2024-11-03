@@ -29,12 +29,9 @@ document.getElementById("o7").innerHTML=o7;
 const o8=localStorage.getItem("adminsop8");
 document.getElementById("o8").innerHTML=o8;
 
-if(q1,o1,o2,o3,o4==""){
-    document.getElementById("q1").style.visibility="hidden";
-}
-if(q2,o5,o6,o7,o8==""){
-    document.getElementById("q2").style.visibility="hidden";
-}
+   if(q1==null) {document.getElementById("q1").style.visibility="collapse";}
+    
+
 function a(){
 alert("worng");
 }  
