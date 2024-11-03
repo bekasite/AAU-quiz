@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+@media only screen and (max-width:767px) {
+    
+
+#nav{
+    background-color: darkblue;
+    color: white;
+    height: 45px;
+
+}
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+
+
+}
+#nav {
+    display: inline-flex;
+    width: 100%;
+}
+
+#nav h1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+.overflow{
+    color: black;
+    background-color: white;
+    width: 70%;
+    float: right;
+    border-radius: 20px;
+overflow: hidden;
+height: 0;
+padding-left: 10px;
+transition: 1s;}
+
+.overflow h1{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.overflow #close{
+    margin-top: 0px;
+    margin-right: 20px;
+    color: brown;
+    position: relative;
+    float: right;
+    }
+    :hover #close{
+        color: red;
+        cursor: pointer;
+    }
+    :hover .bars{
+        cursor: pointer;
+    }
+    :hover .overflow h1{
+        cursor: pointer;
+    }}
