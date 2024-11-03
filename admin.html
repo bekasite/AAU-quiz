@@ -1,15 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Page 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admins</title>
 </head>
 <body>
-    <h1>Data from the first page:</h1>
-    <p id="displayData"></p>
+    <style>
+        textarea{
+           width: 100%;
+        }
+        #options{
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+    <h1 style="text-align: center;"><b>ADMINS ONLY</b></h1>
+    <form id="form">
+    <textarea  id="adminsq1" placeholder="enter your questions here"></textarea><br>
+    <div id="options">
+    <textarea  id="adminsop1" placeholder="enter your option 1 here"></textarea>
+    <textarea  id="adminsop2" placeholder="enter your option 2 here"></textarea>
+    <textarea  id="adminsop3" placeholder="enter your option 3 here"></textarea>
+    <textarea id="adminsop4" placeholder="enter your option 4 here"></textarea>
+</div>
+<textarea  id="adminsq2" placeholder="enter your questions here"></textarea><br>
+<div id="options">
+<textarea  id="adminsop5" placeholder="enter your option 1 here"></textarea>
+<textarea  id="adminsop6" placeholder="enter your option 2 here"></textarea>
+<textarea  id="adminsop7" placeholder="enter your option 3 here"></textarea>
+<textarea id="adminsop8" placeholder="enter your option 4 here"></textarea>
+<button type="submit">submit</button>
+</form>
+<button onclick="reset()">Reset</button>
+<script>
+    
+       const form=document.getElementById('form');
+           
+           form.addEventListener('submit', function(a){
+          a.preventDefault();
+    const adminsq1=document.getElementById("adminsq1").value;
+    const adminsop1=document.getElementById("adminsop1").value;
+    const adminsop2=document.getElementById("adminsop2").value;
+    const adminsop3=document.getElementById("adminsop3").value;
+    const adminsop4=document.getElementById("adminsop4").value;
+ 
+    const adminsq2=document.getElementById("adminsq2").value;
+    const adminsop5=document.getElementById("adminsop5").value;
+    const adminsop6=document.getElementById("adminsop6").value;
+    const adminsop7=document.getElementById("adminsop7").value;
+    const adminsop8=document.getElementById("adminsop8").value;
+   
+       localStorage.setItem('adminsq1' , adminsq1);
+       localStorage.setItem('adminsop1' , adminsop1);
+       localStorage.setItem('adminsop2' , adminsop2);
+       localStorage.setItem('adminsop3' , adminsop3);
+       localStorage.setItem('adminsop4' , adminsop4);
 
-    <script>
-        const inputData = sessionStorage.getItem('inputData');
-        document.getElementById('displayData').innerText = inputData;
-    </script>
+       
+       localStorage.setItem('adminsq2' , adminsq2);
+       localStorage.setItem('adminsop5' , adminsop5);
+       localStorage.setItem('adminsop6' , adminsop6);
+       localStorage.setItem('adminsop7' , adminsop7);
+       localStorage.setItem('adminsop8' , adminsop8);
+     
+
+           }) 
+          const aq1=localStorage.getItem("aq1");
+           function reset(){
+            window.localStorage.clear(); 
+
+           }
+           
+</script>
 </body>
 </html>
