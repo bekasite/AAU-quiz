@@ -32,6 +32,7 @@
 <textarea id="adminsop8" placeholder="enter your option 4 here"></textarea>
 <button type="submit">submit</button>
 </form>
+<button onclick="reset()">Reset</button>
 <script>
     
        const form=document.getElementById('form');
@@ -64,7 +65,11 @@
        localStorage.setItem('adminsop8' , adminsop8);
      
 
-           })    
+           }) 
+           
+           function reset(){
+            localStorage.clear()
+           }
            
 </script>
 </body>
