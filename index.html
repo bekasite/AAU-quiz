@@ -1,56 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AAU QUIZ</title>
-    <link rel="stylesheet" href="index.css"/>
+    <title>Page 1</title>
 </head>
 <body>
-    <nav>
-        <div class="" id="nav">
-            <h1>
-                AAU Freshman quiz
-            </h1>
-            <div class="bars" onclick="menu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        </nav>
-    
-        <div class="overflow" id="overflow">
-            <h1 onclick="closed()" id="close">X</h1>
-            <h1>Communicative Enlgish</h1>
-            <h1>Geography</h1>
-            <h1>History</h1>
-            <h1>Logic and critical thinking</h1>
-            <h1>Physics</h1>
-            <h1>Maths</h1>
-            <h1>Physical Fitness</h1>
-            <h1>Psychology</h1>
-        </div>
-        </div>
+    <input type="text" id="inputData" placeholder="Enter data">
+    <button onclick="storeData()">Submit</button>
 
-        <div id="body">
-            <div id="q1">
-                <h3 id="qn1"></h3>
-                <input type="radio" name="option" id="r1" value="answer" onclick="a()"><p id="o1"></p><br>
-                <input type="radio" name="option" id="r2" onclick="b()"><p id="o2"></p><br>
-                <input type="radio" name="option" id="r3" onclick="c()"><p id="o3"></p><br>
-                <input type="radio" name="option" id="r4" onclick="d()"><p id="o4"></p><br>
-            </div>
-            <div id="q2">
-                <h3 id="qn2"></h3>
-                <input type="radio" name="option" id="r5" value="answer" onclick="a()"><p id="o5"></p><br>
-                <input type="radio" name="option" id="r6" onclick="b()"><p id="o6"></p><br>
-                <input type="radio" name="option" id="r7" onclick="c()"><p id="o7"></p><br>
-                <input type="radio" name="option" id="r8" onclick="d()"><p id="o8"></p><br>
-            </div>
-        </div>
-       
-        <script src="index.js">
-             
-        </script>
+    <script>
+        function storeData() {
+            const input = document.getElementById('inputData').value;
+            sessionStorage.setItem('inputData', input);
+            window.location.href = 'page2.html'; // Redirect to the second page
+        }
+    </script>
 </body>
 </html>
