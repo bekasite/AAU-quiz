@@ -15,6 +15,9 @@ body{
     height: 45px;
 
 }
+input,p{
+    display: inline-flex;
+}
 .bar{
     width: 30px;
     height: 4px;

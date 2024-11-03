@@ -29,8 +29,12 @@ document.getElementById("o7").innerHTML=o7;
 const o8=localStorage.getItem("adminsop8");
 document.getElementById("o8").innerHTML=o8;
 
-   if(q1==null) {document.getElementById("q1").style.visibility="collapse";}
-   if(q2==null) {document.getElementById("q2").style.visibility="collapse";}
+
+const aq1=document.getElementById("q1").value;
+localStorage.setItem('aq1' , aq1);
+
+   if(q1=="") {document.getElementById("q1").style.visibility="collapse";}
+   if(q2=="") {document.getElementById("q2").style.visibility="collapse";}
     
 
 function a(){
