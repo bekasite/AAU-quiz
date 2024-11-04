@@ -3,16 +3,15 @@
     padding: 0%;
 }
 body{
-    background-color: black;
-    color: white;
+   
 }
 @media only screen and (max-width:767px) {
     
 
 #nav{
-    background-color: darkblue;
-    color: white;
-    height: 45px;
+    background-color: grey;
+    
+    height: 55px;
 
 }
 input,p{
@@ -23,9 +22,11 @@ input,p{
     height: 4px;
     background-color: white;
     margin: 6px 0;
+    
 
 
 }
+
 #nav {
     display: inline-flex;
     width: 100%;
@@ -36,12 +37,13 @@ input,p{
     margin-right: auto;
     margin-left: auto;
     font-size: 25px;
+    margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
    }
 .overflow{
     color: black;
     background-color: white;
-    width: 70%;
+    width: 100%;
     float: right;
     border-radius: 20px;
 overflow: hidden;
@@ -49,9 +51,10 @@ height: 0;
 padding-left: 10px;
 transition: 1s;}
 
-.overflow h1{
+.overflow h3{
     margin-top: 10px;
     font-size: 23px;
+    margin-left:20px;
 }
 .overflow #close{
     margin-top: 0px;
@@ -69,4 +72,11 @@ transition: 1s;}
     }
     :hover .overflow h1{
         cursor: pointer;
-    }}
+    }
+  #body h1{
+    text-align: center;
+  }
+  .bars{
+  margin-top: 20px;
+  }
+}
