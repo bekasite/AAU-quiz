@@ -1,5 +1,5 @@
 function menu(){
-    document.getElementById('overflow').style.height="400px";
+    document.getElementById('overflow').style.height="360px";
 }
 function closed(){
     document.getElementById('overflow').style.height="0px";
