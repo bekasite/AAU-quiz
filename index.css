@@ -2,15 +2,14 @@
     margin: 0%;
     padding: 0%;
 }
-body{
-   
-}
+
 @media only screen and (max-width:767px) {
-    
+   body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   } 
 
 #nav{
     background-color: grey;
-    
     height: 55px;
 
 }
@@ -42,13 +41,17 @@ input,p{
    }
 .overflow{
     color: black;
-    background-color: white;
+    background-color: gainsboro;
     width: 100%;
     float: right;
     border-radius: 20px;
 overflow: hidden;
+position: absolute;
+right: 0;
 height: 0;
+top: 0;
 padding-left: 10px;
+margin-top: 60px;
 transition: 1s;}
 
 .overflow h3{
@@ -69,13 +72,21 @@ transition: 1s;}
     }
     :hover .bars{
         cursor: pointer;
+    
+    }
+    :active .bars{
+        color: hsl(20, 20, 20);
     }
     :hover .overflow h1{
         cursor: pointer;
     }
   #body h1{
-    text-align: center;
+    
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
   }
+ body #body{
+   padding-top: 10px;}
   #body a{
     text-align: center;
     font-size: 30px;
