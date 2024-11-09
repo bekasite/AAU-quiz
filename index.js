@@ -5,6 +5,30 @@ function closed(){
     document.getElementById('overflow').style.width="0px";
 }
 
+
+
+document.onkeydown = (e) => {
+
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+       e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+       e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+       e.preventDefault();
+    }
+    if (e.ctrlKey && e.key == 'u') {
+       e.preventDefault();
+    }
+    if( e.key == 'F12')
+    { e.preventDefault();}
+    if(e.ctrlKey && e.key=="F11"){
+        e.preventDefault();
+    }
+    };
+
+    
 const q1=localStorage.getItem("adminsq1");
 document.getElementById("qn1").innerHTML=q1; 
 
