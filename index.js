@@ -1,8 +1,8 @@
 function menu(){
-    document.getElementById('overflow').style.height="380px";
+    document.getElementById('overflow').style.width="300px";
 }
 function closed(){
-    document.getElementById('overflow').style.height="0px";
+    document.getElementById('overflow').style.width="0px";
 }
 
 const q1=localStorage.getItem("adminsq1");

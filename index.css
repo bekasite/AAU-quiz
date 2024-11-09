@@ -27,6 +27,7 @@ input,p{
 }
 
 #nav {
+    position: fixed;
     display: inline-flex;
     width: 100%;
 }
@@ -42,13 +43,13 @@ input,p{
 .overflow{
     color: black;
     background-color: gainsboro;
-    width: 100%;
+    width: 0;
     float: right;
     border-radius: 20px;
 overflow: hidden;
-position: absolute;
+position: fixed;
 right: 0;
-height: 0;
+height: 100%;
 top: 0;
 padding-left: 10px;
 margin-top: 60px;
@@ -86,7 +87,7 @@ transition: 1s;}
    font-family: 'Courier New', Courier, monospace;
   }
  body #body{
-   padding-top: 10px;}
+   padding-top: 60px;}
   #body a{
     text-align: center;
     font-size: 30px;
