@@ -107,3 +107,119 @@ transition: 0.5s;}
   margin-left: 10px;
   }
 }
+
+@media only screen and (min-width:768px) {
+    body{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+ 
+ #nav{
+     background-color: grey;
+     height: 55px;
+ 
+ }
+ input,p{
+     display: inline-flex;
+ }
+ .bar{
+     width: 30px;
+     height: 4px;
+     background-color: white;
+     margin: 6px 0;
+     
+ 
+ 
+ }
+ 
+ #nav {
+     position: fixed;
+     display: inline-flex;
+     width: 100%;
+ }
+ 
+ #nav h1{
+     text-align: center;
+     margin-right: auto;
+     margin-left: auto;
+     font-size: 25px;
+     margin-top: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+ .overflow{
+     color: black;
+     background-color: gainsboro;
+     width: 0;
+     float: right;
+     border-radius: 20px;
+ overflow: hidden;
+ position: fixed;
+ right: 0;
+ height: 100%;
+ top: 0;
+ padding-left: 10px;
+ margin-top: 60px;
+ transition: 0.5s;}
+ 
+ .overflow h3{
+     margin-top: 10px;
+     font-size: 23px;
+     margin-left:20px;
+ }
+ .overflow #close{
+     margin-top: 0px;
+     margin-right: 20px;
+     color: brown;
+     position: relative;
+     float: right;
+     }
+     a{
+         text-decoration: none;
+     }
+     :hover #close{
+         color: red;
+         cursor: pointer;
+     }
+     :hover .bars{
+         cursor: pointer;
+     
+     }
+     :active .bars{
+         color: hsl(20, 20, 20);
+     }
+     :hover .overflow h1{
+         cursor: pointer;
+     }
+   #body h1{
+     
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+   }
+  body #body{
+    padding-top: 60px;}
+   #body a{
+     text-align: center;
+     font-size: 30px;
+     text-decoration: none;
+     display: block;
+     padding:50px;
+     color: white;
+     background-color: black;
+     margin:10px;
+     margin-left: 80px;
+     margin-right: 80px;
+     border-radius: 10px;
+   }
+   #body a:hover{
+    background-color: grey;
+    color: black;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 60px;
+    transition: 1s;
+    font-size: 35px;
+   }
+   .bars{
+   margin-top: 16px;
+   margin-left: 10px;
+   }
+ }
