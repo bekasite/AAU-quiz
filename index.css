@@ -10,7 +10,7 @@
 
 #nav{
     background-color: grey;
-    height: 65px;
+    height: 55px;
 
 }
 input,p{
@@ -115,7 +115,7 @@ transition: 0.5s;}
  
  #nav{
      background-color: grey;
-     height: 55px;
+     height: 65px;
  
  }
  input,p{
