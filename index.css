@@ -76,7 +76,19 @@ transition: 1s;}
   #body h1{
     text-align: center;
   }
+  #body a{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    padding:50px;
+    color: white;
+    background-color: black;
+    margin:10px;
+    border-radius: 10px;
+  }
   .bars{
   margin-top: 16px;
+  margin-left: 10px;
   }
 }
