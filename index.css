@@ -258,7 +258,7 @@ transition: 0.5s;}
      color: white;
      padding:60px;
      margin:10px;
-     margin-top: 40px;
+     margin-top: 80px;
      border-radius: 10px;
    }
    #body a:hover{
@@ -275,40 +275,40 @@ transition: 0.5s;}
    #body #maths{
     background-image: url('https://teachmiddleeastmag.com/wp-content/uploads/2017/01/math.jpg');
     background-size: 100% 100%;
-    height: 120px;
+    height: 160px;
  }
  #logic{
-    height: 140px;
+    height: 160px;
     background-size: 100% 100%;
     background-image: url("https://4.bp.blogspot.com/-EaxvgRSycjo/WrAFmfnQylI/AAAAAAAACx4/vUvddhk6XIEEfiHYCX-hjjxroLagF-RtwCLcBGAs/s1600/Critical+Thinking.jpg");
  }
  #history{
     background-image: url("https://blog.udemy.com/wp-content/uploads/2014/05/bigstock-History-56161577.jpg");
-    height: 140px;
+    height: 160px;
     background-size: 100% 100%;
  }
  #geo{
     background-image: url("https://media.istockphoto.com/vectors/geography-open-book-with-hand-drawn-word-geography-and-doodle-vector-id1257796192?k=20&m=1257796192&s=170667a&w=0&h=he96v-1_Flm-NgzpjOBS6R5GiBZ_fS6ZOHJLd-kY0GM=");
-    height: 180px;
+    height: 160px;
     background-size: 100% 100%;
  }
  #phy{
     background-image: url("https://thumbs.dreamstime.com/b/physics-word-light-blue-background-vector-illustration-144812883.jpg");
-    height: 180px;
+    height: 160px;
     background-size: 100% 100%;
  }
  #psychology{
     background-image: url("https://studiousguy.com/wp-content/uploads/2015/03/Psychology1.jpg");
-    height: 180px;
+    height: 160px;
     background-size: 100% 100%;
  }
  #english{
     background-image: url("https://1.bp.blogspot.com/-UQHfQ114j44/T6BDYnixLNI/AAAAAAAAAMY/49tO5FSwZ_4/s1600/english+book.jpg");
-    height: 180px;
+    height: 160px;
     background-size: 100% 100%;
  }
  #hpe{
-    height: 180px;
+    height: 160px;
     background-size: 100% 100%;
     background-image: url("https://i1.wp.com/www.superbadassworkouts.com/wp-content/uploads/2016/10/Fitness-Title.jpg?w=1531&ssl=1");
  }
